@@ -87,7 +87,6 @@ function displayShows(responseJson){
    let imgHtml;
 
    if (responseJson[i].show.image == null){
-    alert('no image found')
     httpsUrl = "https://image.shutterstock.com/image-vector/image-unavailable-icon-260nw-1157415967.jpg";
    }
 
